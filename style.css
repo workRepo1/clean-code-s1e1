@@ -18,10 +18,9 @@
 }
 
 @media (max-width: 768px) {
-
-.hero { text-align: center;
-}
-
+  .hero {
+    text-align: center;
+  }
 }
 .todo-section {
   display: block;
@@ -40,10 +39,12 @@ ul {
   margin: 0;
   padding: 0px;
 }
-li, h3 {
+li,
+h3 {
   list-style: none;
 }
-input,button{
+input,
+button {
   outline: none;
 }
 button {
@@ -120,7 +121,7 @@ li > label {
   font-size: 18px;
   width: 226px;
 }
-li >    input[type="text"] {
+li > input[type="text"] {
   width: 226px;
 }
 li > .delete:hover {
@@ -142,15 +143,15 @@ li > .delete:hover {
 }
 
 /* Edit Task */
-ul li input[type=text] {
+ul li input[type="text"] {
   display: none;
 }
 
-.edit-mode input[type=text] {
-  display: inline-block
+.edit-mode input[type="text"] {
+  display: inline-block;
   width: 224px;
 }
 
 .edit-mode label {
   display: none;
-} 
+}
